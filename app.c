@@ -14,11 +14,8 @@ int main() {
     scanf("%s", name);
     printf("Hello, %s!\n", name);
 
-    // Calculator Logic
-    printf("\n--- Calculator ---\n");
-    printf("Enter two numbers to add: ");
-    scanf("%d %d", &num1, &num2);
-    printf("Sum: %d\n", add(num1, num2));
+    printf("\n=== CALCULATOR MODE ENABLED ===\n"); // This overlaps with the Menu lines
 
     return 0;
+
 }
